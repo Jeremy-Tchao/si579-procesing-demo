@@ -64,17 +64,7 @@ if(pose){
   
 }
 
-function modelLoaded(){
-  console.log("Pose net loaded! :D "); 
-}
 
-function gotPoses(poses){
-  // Check to see if machine is picking up any poses
-  // by checking to see if the array isn't empty.
-  console.log(poses)
-  
-  if(poses.length > 0){
-    pose = poses[0].pose;  
-  }
+
 
 }
